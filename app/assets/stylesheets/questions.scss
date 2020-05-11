@@ -1,0 +1,30 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.response-card {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.you {
+  padding: 4px;
+  border-left: 3px solid lightgrey;
+  line-height: 8px;
+  margin-bottom: 10px;
+}
+
+.coach {
+  padding: 4px;
+  border-left: 3px solid lightgrey;
+  line-height: 8px;
+  background-color: lightyellow;
+}
+
+a {
+  text-decoration: none
+}
